@@ -37,7 +37,7 @@ def generateNextPalindrome(arr, n):
         arr[j] = arr[i]
         j += 1
         i -= 1
-
+    return 
 
 def allAreNine(arr, n):
     for i in range(n):
